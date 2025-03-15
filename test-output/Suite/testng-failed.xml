@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SELENIUM.SELENIUM_PROJECT.ServiceProviderResponseCodeClass">
+        <methods>
+          <include name="Search"/>
+          <include name="Pagination"/>
+          <include name="View"/>
+          <include name="ClickMenu"/>
+        </methods>
+      </class> <!-- SELENIUM.SELENIUM_PROJECT.ServiceProviderResponseCodeClass -->
+      <class name="SELENIUM.SELENIUM_PROJECT.LoginClassTest">
+        <methods>
+          <include name="EditUser"/>
+        </methods>
+      </class> <!-- SELENIUM.SELENIUM_PROJECT.LoginClassTest -->
+      <class name="SELENIUM.SELENIUM_PROJECT.HomePageClass">
+        <methods>
+          <include name="HomePage"/>
+        </methods>
+      </class> <!-- SELENIUM.SELENIUM_PROJECT.HomePageClass -->
+      <class name="SELENIUM.SELENIUM_PROJECT.UpdateUserClass">
+        <methods>
+          <include name="SearchUser"/>
+          <include name="EditUser" invocation-numbers="0 1"/>
+          <include name="UpdateUser"/>
+        </methods>
+      </class> <!-- SELENIUM.SELENIUM_PROJECT.UpdateUserClass -->
+      <class name="SELENIUM.SELENIUM_PROJECT.ViewUserClass">
+        <methods>
+          <include name="ViewUser"/>
+        </methods>
+      </class> <!-- SELENIUM.SELENIUM_PROJECT.ViewUserClass -->
+      <class name="SELENIUM.SELENIUM_PROJECT.LoginClass">
+        <methods>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- SELENIUM.SELENIUM_PROJECT.LoginClass -->
+      <class name="SELENIUM.SELENIUM_PROJECT.CreateUserClass">
+        <methods>
+          <include name="CreateUser"/>
+        </methods>
+      </class> <!-- SELENIUM.SELENIUM_PROJECT.CreateUserClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
